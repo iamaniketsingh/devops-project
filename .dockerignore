@@ -1,0 +1,16 @@
+target/
+.git
+.idea
+*.iml
+.vscode
+*.log
+*.md
+
+# Maven wrapper (not needed in Docker)
+.mvn/
+mvnw
+mvnw.cmd
+
+# Git
+.gitignore
+.gitattributes
