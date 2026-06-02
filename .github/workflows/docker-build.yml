@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: iamaniketsingh/k8s-gitops-repo
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GITOPS_TOKEN }}
           path: gitops-repo
 
       - name: Update Image tag in deployment
