@@ -56,7 +56,7 @@ jobs:
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add k8s/deployment.yaml
-          git commit -m "Update image tag to ${{ github.run_number }}"
+          git commit -m "Update image tag to ${{ github.run_number }}" || echo "No changes to commit"
           git push
           
            
